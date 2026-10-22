@@ -1,0 +1,24 @@
+{
+  "name": "web-dev-ch-8-backend",
+  "version": "1.0.0",
+  "description": "CH-8 Backend with Auth, Menu, Rating, User management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.4",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.24.5",
+    "nodemon": "^3.1.14"
+  }
+}
